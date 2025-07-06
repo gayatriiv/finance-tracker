@@ -24,7 +24,7 @@ Simple. Visual. Efficient.
 
 ---
 
-## 🛠 Tech Stack
+## tech Stack
 
 - **Frontend**: [Next.js](https://nextjs.org/), [React](https://react.dev/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/), [shadcn/ui](https://ui.shadcn.com/)
@@ -37,11 +37,11 @@ Simple. Visual. Efficient.
 
 ## ⚙️ Getting Started
 
-### 1. Clone the Repo
+### 1. clone the Repo
 
 ```bash
-git clone https://github.com/your-username/finora.git
-cd finora
+git clone https://github.com/gayatriiv/finance-tracker.git
+cd finance-tracker
 ```
 
 ### 2. install dependencies 
