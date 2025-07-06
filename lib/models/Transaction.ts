@@ -1,7 +1,7 @@
 import { ObjectId } from 'mongodb';
 
 export interface Transaction {
-  _id?: ObjectId; // ✅ Allow MongoDB ObjectId type
+  _id?: ObjectId; // 
   description: string;
   amount: number;
   type: 'income' | 'expense';
