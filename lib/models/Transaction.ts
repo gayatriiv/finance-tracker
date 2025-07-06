@@ -1,10 +1,12 @@
+import { ObjectId } from 'mongodb';
+
 export interface Transaction {
-  _id?: string
-  amount: number
-  description: string
-  category: string
-  type: 'income' | 'expense'
-  date: string
-  createdAt: string
-  updatedAt?: string
+  _id?: ObjectId; // ✅ Allow MongoDB ObjectId type
+  title: string;
+  amount: number;
+  type: 'income' | 'expense';
+  category: string;
+  date: string;
+  createdAt?: string;
+  updatedAt?: string;
 }
