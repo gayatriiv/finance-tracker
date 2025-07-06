@@ -2,7 +2,7 @@ import { ObjectId } from 'mongodb';
 
 export interface Transaction {
   _id?: ObjectId; // ✅ Allow MongoDB ObjectId type
-  title: string;
+  description: string;
   amount: number;
   type: 'income' | 'expense';
   category: string;
